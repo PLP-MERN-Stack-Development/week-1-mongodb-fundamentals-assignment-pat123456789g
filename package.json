@@ -1,0 +1,22 @@
+{
+  "name": "plp-mongodb-assignment",
+  "version": "1.0.0",
+  "description": "Week 1 MongoDB Fundamentals Assignment for PLP",
+  "main": "insert_books.js",
+  "scripts": {
+    "setup": "node insert_books.js",
+    "queries": "node queries.js",
+    "test": "node setup-and-test.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.17.0"
+  },
+  "keywords": [
+    "mongodb",
+    "database",
+    "plp",
+    "assignment"
+  ],
+  "author": "Student",
+  "license": "MIT"
+}
